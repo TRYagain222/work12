@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Будова сайту - Скелет</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, aside, main, section, article, footer {
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid #ccc;
+        }
+        header {
+            background-color: #f8f8f8;
+        }
+        nav {
+            background-color: #e8e8e8;
+        }
+        aside {
+            background-color: #f0f0f0;
+            width: 25%;
+            float: left;
+        }
+        main {
+            background-color: #fff;
+            width: 70%;
+            float: right;
+        }
+        footer {
+            background-color: #d8d8d8;
+            clear: both;
+            text-align: center;
+        }
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Сайт про Скелет</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#introduction">Вступ</a></li>
+        <li><a href="#structure">Будова скелета</a></li>
+        <li><a href="#functions">Функції скелета</a></li>
+        <li><a href="#bone-health">Здоров'я кісток</a></li>
+    </ul>
+</nav>
+
+<aside>
+    <h2>Корисні посилання</h2>
+    <ul>
+        <li><a href="#introduction">Вступ</a></li>
+        <li><a href="#structure">Будова скелета</a></li>
+        <li><a href="#functions">Функції скелета</a></li>
+        <li><a href="#bone-health">Здоров'я кісток</a></li>
+    </ul>
+</aside>
+
+<main class="clearfix">
+    <section id="introduction">
+        <article>
+            <h2>Вступ</h2>
+            <p>Скелет є основою людського тіла, що забезпечує його форму та підтримку. Він складається з кісток, які виконують різноманітні функції, включаючи захист органів, рух та зберігання мінералів.</p>
+        </article>
+    </section>
+
+    <section id="structure">
+        <article>
+            <h2>Будова скелета</h2>
+            <p>Людський скелет складається з понад 200 кісток, які діляться на два основні відділи: осьовий скелет (включає череп, хребетний стовп і грудну клітку) і додатковий скелет (включає кінцівки і плечовий та тазовий пояси).</p>
+        </article>
+    </section>
+
+    <section id="functions">
+        <article>
+            <h2>Функції скелета</h2>
+            <p>Скелет виконує кілька важливих функцій: надає тілу підтримку, захищає внутрішні органи, допомагає у рухах разом з м'язами, зберігає важливі мінерали та бере участь у кровотворенні.</p>
+        </article>
+    </section>
+
+    <section id="bone-health">
+        <article>
+            <h2>Здоров'я кісток</h2>
+            <p>Для підтримання здоров'я кісток важливо отримувати достатню кількість кальцію та вітаміну D, займатися фізичними вправами і уникати шкідливих звичок, таких як куріння та надмірне вживання алкоголю.</p>
+        </article>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Сайт про Скелет</p>
+</footer>
+
+</body>
+</html>
